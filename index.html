@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>董冉 - Portfolio</title>
+  <meta name="description" content="董冉个人作品集与简历网站，展示关于我、教育背景、工作经历、项目展示、技能特长和兴趣爱好。">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="nav-shell">
+    <a class="logo" href="#about" aria-label="返回首页">
+      <span class="avatar-dot">DR</span>
+      <strong>PORTFOLIO</strong>
+    </a>
+    <nav aria-label="主要导航">
+      <a class="active" href="#about">关于我</a>
+      <a href="#education">教育背景</a>
+      <a href="#experience">工作经历</a>
+      <a href="#projects">项目展示</a>
+      <a href="#skills">技能特长</a>
+      <a href="#hobbies">兴趣爱好</a>
+    </nav>
+    <a class="resume-link" href="#resume-preview">简历预览 ↗</a>
+  </header>
+
+  <main>
+    <section class="page hero-page" id="about">
+      <div class="hero-copy">
+        <p class="pill">● HELLO / 你好</p>
+        <h1>Hi,<br>我是<span class="flower" aria-hidden="true">✿</span>董冉</h1>
+        <p class="role">数据分析 / Data Operations</p>
+        <div class="idea-card">
+          <span>个人理念 /</span>
+          <strong>把复杂业务拆成清晰指标，用报表和看板让问题被看见、被跟踪、被优化。</strong>
+        </div>
+        <p class="intro">具备统计学与系统分析背景，关注经营分析、用户增长、跨境业务运营与数据可视化。希望进入数据分析/数据运营岗位，用扎实的数据整理与复盘能力支持业务决策。</p>
+        <div class="tag-row">
+          <span>经营分析</span>
+          <span>自动化报表</span>
+          <span>Tableau 看板</span>
+          <span>跨境运营</span>
+        </div>
+        <div class="cta-row">
+          <a class="button dark" href="./assets/董冉-莫斯科国立大学-系统分析与管理.pdf" download>下载简历</a>
+          <a class="button light" href="mailto:13133288256@163.com">联系我</a>
+        </div>
+        <div class="resume-switch" aria-label="简历语言切换">
+          <a class="current" href="#resume-preview">页面内预览</a>
+          <a href="./assets/董冉-莫斯科国立大学-系统分析与管理.pdf" download>中文 PDF</a>
+          <a href="./assets/Dong-Ran-Resume-EN.pdf" download>English PDF</a>
+          <a href="./assets/Dong-Ran-Resume-RU.pdf" download>Русский PDF</a>
+        </div>
+      </div>
+      <div class="portrait-card">
+        <img src="./assets/resume-preview.png" alt="董冉简历预览">
+        <div class="status-card">
+          <span>NOW</span>
+          <strong>莫斯科国立大学</strong>
+          <small>系统分析与管理硕士</small>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#education">继续下滑，探索更多 ↓</a>
+    </section>
+
+    <section class="resume-preview-panel" id="resume-preview" aria-label="多语言简历预览">
+      <div class="section-title compact">
+        <p>RESUME / PREVIEW</p>
+        <h2>多语言简历预览</h2>
+        <span>点击标签即可在页面内切换查看，适合招聘方快速浏览。</span>
+      </div>
+      <div class="resume-tabs">
+        <input checked type="radio" name="resume-lang" id="resume-en">
+        <input type="radio" name="resume-lang" id="resume-ru">
+        <input type="radio" name="resume-lang" id="resume-zh">
+        <div class="tab-labels">
+          <label for="resume-en">English</label>
+          <label for="resume-ru">Русский</label>
+          <label for="resume-zh">中文</label>
+        </div>
+        <div class="resume-frame frame-en">
+          <iframe title="English resume preview" src="./assets/Dong-Ran-Resume-EN.pdf"></iframe>
+        </div>
+        <div class="resume-frame frame-ru">
+          <iframe title="Russian resume preview" src="./assets/Dong-Ran-Resume-RU.pdf"></iframe>
+        </div>
+        <div class="resume-frame frame-zh">
+          <iframe title="Chinese resume preview" src="./assets/董冉-莫斯科国立大学-系统分析与管理.pdf"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="education">
+      <div class="section-title">
+        <p>01 / EDUCATION</p>
+        <h2>我的学习轨迹</h2>
+        <span>从统计学到系统分析，不断拓展认知边界。</span>
+      </div>
+      <div class="school-grid">
+        <article class="school-card">
+          <div class="school-cover photo-cover">
+            <img src="./assets/moscow-university.jpg" alt="莫斯科国立大学校园照片">
+            <span>莫斯科国立大学</span>
+          </div>
+          <time>2024.09 - 2026.06</time>
+          <h3>莫斯科国立大学</h3>
+          <p>系统分析与管理硕士。主修数据库设计、系统分析与决策理论、人工智能系统、智能计算、数据可视化、数据挖掘。</p>
+        </article>
+        <article class="school-card">
+          <div class="school-cover photo-cover">
+            <img src="./assets/harbin-university.png" alt="哈尔滨商业大学校园照片">
+            <span>哈尔滨商业大学</span>
+          </div>
+          <time>2019.09 - 2023.06</time>
+          <h3>哈尔滨商业大学</h3>
+          <p>统计学学士。主修统计学、数据库原理和技术、回归分析、抽样技术与应用、数理统计学。</p>
+        </article>
+      </div>
+      <div class="honor-panel">
+        <h3>荣誉与成就</h3>
+        <div class="chips">
+          <span>第十二届全国大学生市场调查与分析大赛黑龙江赛区省二等奖</span>
+          <span>校奖学金</span>
+          <span>先进个人</span>
+          <span>优秀团员</span>
+          <span>优秀志愿者</span>
+        </div>
+      </div>
+      <div class="campus-panel">
+        <h3>校园经历</h3>
+        <div class="campus-list">
+          <article>
+            <time>2024.09 - 2026.06</time>
+            <h4>莫斯科国立大学学生会学联部 · 成员</h4>
+            <p>参与组织线上学生自习室活动，配合制定签到、学习陪伴和提醒机制；参与莫斯科中国春节红场活动志愿服务，承担现场引导、秩序维护和信息沟通等工作。</p>
+          </article>
+          <article>
+            <time>2020.10 - 2021.10</time>
+            <h4>大学生科技协会竞赛组织部 · 部长</h4>
+            <p>带领部门配合校团委、校科协开展竞赛和交流活动，参与挑战杯、节能减排大赛、邮储银行杯等赛事组织，积累多部门协同、材料准备和现场执行经验。</p>
+          </article>
+          <article>
+            <time>2020.10 - 2021.10</time>
+            <h4>校青年志愿者服务中心文艺部 · 部长</h4>
+            <p>负责敬老院慰问演出等公益活动的节目统筹与现场协调，多次组织学生参与学校疫情防控秩序维护，具备服务意识和基层执行经验。</p>
+          </article>
+        </div>
+        <div class="red-square-gallery" aria-label="莫斯科中国春节红场活动照片">
+          <img src="./assets/red-square-1.jpg" alt="莫斯科中国春节红场活动照片一">
+          <img src="./assets/red-square-2.jpg" alt="莫斯科中国春节红场活动照片二">
+          <img src="./assets/red-square-3.jpg" alt="莫斯科中国春节红场活动照片三">
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="experience">
+      <div class="section-title">
+        <p>02 / THE PRACTITIONER</p>
+        <h2>我在过往职场做过什么</h2>
+        <span>从跨境物流数据到俄语区 KOL 投放，在真实业务场景中成长。</span>
+      </div>
+      <div class="work-timeline">
+        <article>
+          <span class="num">01</span>
+          <div class="work-card">
+            <time>2026.03 - 2026.06</time>
+            <h3>中铁集装箱俄罗斯公司</h3>
+            <p class="sub">数据运营实习生</p>
+            <ul>
+              <li>整理班列订单、运价、运踪等业务数据，完成信息录入、更新与跟踪。</li>
+              <li>维护客户信息库及业务数据库，核对客户资料、订单状态和运价信息。</li>
+              <li>使用 Excel 制作运营报表，支持订单量、运输进度和业务变化统计。</li>
+              <li>使用中俄双语处理邮件、单据及跨境业务沟通。</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <span class="num">02</span>
+          <div class="work-card">
+            <time>2025.11 - 2026.02</time>
+            <h3>香港万众科技有限公司</h3>
+            <p class="sub">海内外 KOL 运营</p>
+            <ul>
+              <li>负责俄罗斯/CIS 游戏垂类 KOL 筛选、询价、档期确认及合作沟通。</li>
+              <li>协助推进合同、付款、广告标记、素材审核、发布回传和 UA 授权沟通，单条报价覆盖 3.5K-60K RUB / $1.2K-$4.3K。</li>
+              <li>推进 6 位 KOL 完成 8 条 YouTube/Shorts 内容发布，覆盖长视频、Shorts、90s 插片等形式，达人粉丝量覆盖 1 万至 100 万。</li>
+              <li>跟踪内容播放、互动和发布效果，累计播放量约 26.8 万，互动约 7,000+，整理投放数据用于后续合作评估。</li>
+              <li>沉淀俄语区达人沟通信息、内容反馈和投放节奏，为后续达人复用与投放排期提供参考。</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="page" id="projects">
+      <div class="section-title">
+        <p>03 / PROJECTS</p>
+        <h2>项目展示</h2>
+        <span>用数据工具呈现问题，用业务语言解释结果。</span>
+      </div>
+      <div class="project-stack">
+        <article class="project-card large">
+          <span class="num">01</span>
+          <div>
+            <p class="project-type">经营分析 · 自动化报表</p>
+            <h3>经营收益自动化报表与利润风险分析</h3>
+            <p>统一 GMV、毛利率、成本占比、逾期率等指标口径，使用 Excel 制作经营周报，并用 Tableau 搭建收益分析看板。</p>
+            <div class="chips">
+              <span>Excel</span>
+              <span>Tableau</span>
+              <span>利润风险</span>
+              <span>区域下钻</span>
+            </div>
+            <div class="mini-dashboard">
+              <div><strong>-4.1%</strong><span>获客成本</span></div>
+              <div><strong>-6.2%</strong><span>亏损程度</span></div>
+              <div><strong>-2.3%</strong><span>逾期率</span></div>
+            </div>
+            <div class="project-screens">
+              <figure>
+                <img src="./assets/project-weekly-report.png" alt="互联网金融数据分析周报截图">
+                <figcaption>Excel 自动化周报</figcaption>
+              </figure>
+              <figure>
+                <img src="./assets/project-drilldown.png" alt="下钻分析截图">
+                <figcaption>业务组下钻分析</figcaption>
+              </figure>
+              <figure>
+                <img src="./assets/project-quant.png" alt="量化分析截图">
+                <figcaption>量化分析视图</figcaption>
+              </figure>
+              <figure>
+                <img src="./assets/project-map.png" alt="区域地图分析截图">
+                <figcaption>区域风险地图</figcaption>
+              </figure>
+            </div>
+            <div class="asset-links">
+              <a href="./assets/Excel自动化报表.xlsx" download>Excel 报表</a>
+              <a href="./assets/Tableau经营收益智能分析仪表盘.twbx" download>Tableau 工作簿</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <span class="num">02</span>
+          <div>
+            <p class="project-type">增长分析 · 直播转化</p>
+            <h3>用户转化路径拆解与广告投放归因分析</h3>
+            <p>以绽家抖音家居生活品牌直播间为分析对象，围绕 GMV 增长目标梳理“进入直播间-观看-点击商品-提交订单-支付成交”的完整转化路径，并从用户、商家、平台三方视角拆解关键动作。</p>
+            <ul>
+              <li>建立直播间转化指标体系，覆盖用户数、观看率、商品点击率、下单率、支付率、客单价、互动率等核心指标。</li>
+              <li>结合录屏、逐字稿和页面信息，定位话术节奏、商品展示、价格表达、互动引导等环节的转化阻力。</li>
+              <li>将优化建议按成本、收益和可行性排序，输出可落地的直播运营与广告投放复盘思路。</li>
+            </ul>
+            <div class="chips">
+              <span>链路拆解</span>
+              <span>GMV</span>
+              <span>归因分析</span>
+              <span>直播运营</span>
+              <span>转化优化</span>
+            </div>
+            <div class="asset-links">
+              <a href="https://my.feishu.cn/wiki/PDjewMdc1idFPSk5Q3KcJEnBn9F?from=from_copylink" target="_blank" rel="noreferrer">打开项目文档</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="page" id="skills">
+      <div class="section-title">
+        <p>04 / SKILLS</p>
+        <h2>技能图谱</h2>
+        <span>围绕数据分析、报表可视化与运营协作沉淀能力。</span>
+      </div>
+      <div class="skill-matrix">
+        <article>
+          <h3>数据与分析</h3>
+          <div class="chips">
+            <span>Excel</span>
+            <span>SQL</span>
+            <span>Python</span>
+            <span>SPSS</span>
+            <span>数据清洗</span>
+            <span>归因分析</span>
+          </div>
+        </article>
+        <article>
+          <h3>可视化与报表</h3>
+          <div class="chips">
+            <span>Tableau</span>
+            <span>Power BI</span>
+            <span>自动化周报</span>
+            <span>数据看板</span>
+            <span>经营诊断</span>
+          </div>
+        </article>
+        <article>
+          <h3>运营增长</h3>
+          <div class="chips">
+            <span>用户转化路径</span>
+            <span>GMV 拆解</span>
+            <span>直播复盘</span>
+            <span>广告投放归因</span>
+            <span>KOL 筛选</span>
+            <span>活动执行</span>
+          </div>
+        </article>
+        <article>
+          <h3>跨境协作</h3>
+          <div class="chips">
+            <span>跨境业务</span>
+            <span>KOL 合作</span>
+            <span>客户维护</span>
+            <span>中俄双语</span>
+            <span>飞书</span>
+            <span>合同流程跟进</span>
+          </div>
+        </article>
+        <article>
+          <h3>软实力</h3>
+          <div class="chips">
+            <span>项目跟进</span>
+            <span>复盘意识</span>
+            <span>结构化表达</span>
+            <span>协同沟通</span>
+            <span>责任心</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="page" id="hobbies">
+      <div class="section-title">
+        <p>05 / LIFE</p>
+        <h2>工作之外的我</h2>
+        <span>保持好奇，热爱生活，用丰富的体验滋养创造力。</span>
+      </div>
+      <div class="hobby-grid">
+        <article>
+          <span>🧵</span>
+          <h3>手工制作</h3>
+          <p>喜欢用手作放慢节奏，也训练耐心、审美和细节把控。</p>
+        </article>
+        <article>
+          <span>🧪</span>
+          <h3>研究新技术</h3>
+          <p>关注 AI 工具、数据可视化和自动化方法，尝试把新工具用到学习与工作流里。</p>
+        </article>
+        <article>
+          <span>📊</span>
+          <h3>数据可视化灵感</h3>
+          <p>会收集优秀看板、图表和信息设计案例，训练结构化表达。</p>
+        </article>
+        <article>
+          <span>🧭</span>
+          <h3>旅行探索</h3>
+          <p>喜欢观察不同城市的商业、文化和生活方式。</p>
+        </article>
+        <article>
+          <span>🎧</span>
+          <h3>播客与内容观察</h3>
+          <p>通过播客和长内容了解行业变化，也训练对用户需求和表达方式的敏感度。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
